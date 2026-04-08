@@ -17,6 +17,7 @@ public class EmployeeController {
 
     private EmployeeServiceImpl empImpl;
 
+    //to add employee
     @PostMapping("/add")
     public ResponseEntity<EmployeeDto> create(@RequestBody EmployeeDto ed){
 
